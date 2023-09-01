@@ -49,12 +49,6 @@ By leveraging these methods, this analysis hopes to shed light on the nuances of
 
    The MSE provides a measure of the average squared difference between predicted and actual MEP amplitude values. The smaller the MSE, the closer our predictions are to the actual values, which indicates a better model. An MSE of 1.0924 gives us a rough idea about the accuracy of our predictions, though to really gauge how good or bad this is, one would typically compare it to other models or benchmarks. 
 
-### Overall Interpretation:
-
-- Age has a small negative impact on MEP amplitude.
-- Propofol dosage has a small positive impact on MEP amplitude.
-- Being right-handed seems to reduce the MEP amplitude a bit when compared to being left-handed.
-- The model has a certain level of prediction error as indicated by the MSE.
 
 *Note: This is a synthetic dataset. Real-world data might present different relationships, and statistical significance tests are also necessary to validate the observed effects.
 
