@@ -13,7 +13,7 @@ Motor Evoked Potentials (MEPs) are neurophysiological measures used to monitor t
 
 ### Purpose of this Machine Learning Practice:
 
-The aim of our machine learning (ML) analysis is to understand and predict how handedness and propofol dosage might affect the amplitude of MEPs recorded from the right FDI muscle. This exercise serves as a stepping stone towards more advanced analyses that can potentially be used in clinical or research settings to inform decision-making and understand motor pathway dynamics.
+The aim of this machine learning (ML) analysis is to understand and predict how handedness and propofol dosage might affect the amplitude of MEPs recorded from the right FDI muscle. This exercise serves as a stepping stone towards more advanced analyses that can potentially be used in clinical or research settings to inform decision-making and understand motor pathway dynamics.
 
 ### Machine Learning Methods:
 
