@@ -45,9 +45,9 @@ By leveraging these methods, this analysis hopes to shed light on the nuances of
    
    This coefficient compares right-handed to left-handed individuals. A right-handed person, on average, has a MEP amplitude that's 0.0521 units lower than a left-handed person, when all other factors are kept constant. This suggests that handedness, particularly being right-handed, has a slightly more pronounced (though still modest) negative effect on MEP amplitude compared to the other factors we looked at.
 
-**Mean Squared Error (MSE): 1.0924**
+**Mean Squared Error (MSE): 1.6456**
 
-   The MSE provides a measure of the average squared difference between predicted and actual MEP amplitude values. The smaller the MSE, the closer our predictions are to the actual values, which indicates a better model. An MSE of 1.0924 gives us a rough idea about the accuracy of our predictions, though to really gauge how good or bad this is, one would typically compare it to other models or benchmarks. 
+   The MSE provides a measure of the average squared difference between predicted and actual MEP amplitude values. The smaller the MSE, the closer our predictions are to the actual values, which indicates a better model. An MSE of 1.6456 gives us a rough idea about the accuracy of our predictions, though to really gauge how good or bad this is, one would typically compare it to other models or benchmarks. 
 
 
 *Note: This is a synthetic dataset. Real-world data might present different relationships, and statistical significance tests are also necessary to validate the observed effects.
