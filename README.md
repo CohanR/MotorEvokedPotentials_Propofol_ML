@@ -30,3 +30,5 @@ This ML approach involves building a regression model to predict MEP amplitude b
 5. **Visualisation:** Several visualizations are incorporated, such as the effects of handedness and propofol dosage on MEP amplitude using `sns.boxplot` and `sns.regplot`, respectively. Additionally, a scatter plot provides a comparison between actual vs. predicted MEP amplitudes.
 
 By leveraging these methods, this analysis hopes to shed light on the nuances of how propofol and handedness might influence MEP amplitude, potentially offering insights for further research and clinical applications.
+
+Remy Cohan, 2023
