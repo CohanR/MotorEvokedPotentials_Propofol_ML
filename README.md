@@ -31,4 +31,41 @@ This ML approach involves building a regression model to predict MEP amplitude b
 
 By leveraging these methods, this analysis hopes to shed light on the nuances of how propofol and handedness might influence MEP amplitude, potentially offering insights for further research and clinical applications.
 
+### Output and Interpretation:
+
+**Coefficient for Age: -0.0055**
+   
+   For every year increase in age, the MEP amplitude decreases by 0.0055 units, keeping all other variables constant. This indicates an inverse relationship between age and MEP amplitude. However, the effect seems small and might not be clinically significant, but this depends on the units and scale of MEP amplitude.
+
+**Coefficient for Propofol_Dosage: 0.0036**
+   
+   For every unit increase in Propofol dosage, the MEP amplitude increases by 0.0036 units, keeping all other variables constant. This indicates a direct relationship between the dosage of Propofol and MEP amplitude. Again, the magnitude of the coefficient is small, which might indicate that while Propofol dosage does have an effect on MEP amplitude, it's not a very strong effect by itself.
+
+**Coefficient for Handedness_Right: -0.0521**
+   
+   This coefficient compares right-handed to left-handed individuals. A right-handed person, on average, has a MEP amplitude that's 0.0521 units lower than a left-handed person, when all other factors are kept constant. This suggests that handedness, particularly being right-handed, has a slightly more pronounced (though still modest) negative effect on MEP amplitude compared to the other factors we looked at.
+
+**Mean Squared Error (MSE): 1.0924**
+
+   The MSE provides a measure of the average squared difference between predicted and actual MEP amplitude values. The smaller the MSE, the closer our predictions are to the actual values, which indicates a better model. An MSE of 1.0924 gives us a rough idea about the accuracy of our predictions, though to really gauge how good or bad this is, one would typically compare it to other models or benchmarks. 
+
+### Overall Interpretation:
+
+- Age has a small negative impact on MEP amplitude.
+- Propofol dosage has a small positive impact on MEP amplitude.
+- Being right-handed seems to reduce the MEP amplitude a bit when compared to being left-handed.
+- The model has a certain level of prediction error as indicated by the MSE.
+
+*Note: This is a synthetic dataset. Real-world data might present different relationships, and statistical significance tests are also necessary to validate the observed effects.
+
+![Matrix Visualisation](Matrix_RC.png)    
+
+![Boxplot Visualization](Boxplot_RC.png)
+
+![Predictors Visualisation](predictors_RC.png)  
+
+![Decision Tree Visualization](corr_matrix-RC.png)
+
+![Decision Tree Visualization](decision_tree_RC.png)
+
 Remy Cohan, 2023
